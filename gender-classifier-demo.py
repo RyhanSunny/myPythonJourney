@@ -2,6 +2,8 @@
 #The goal is to clssify anyone as 'male' or 'female' given just their 'height', 'weight' and 'shoe size'
 #we use scikit-learn package to train a decision tree with already existing data set to make it able to predict on it's own
 
+#USING DECISION TREE CLASSIFIER
+
 from sklearn import tree
 
 # data set x [height, weight, shoe size]
