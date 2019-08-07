@@ -24,4 +24,3 @@ prediction = clf.predict([[250, 70, 45]])
 
 print (prediction)
 
-#TEST UPDATE GIT
