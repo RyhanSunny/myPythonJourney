@@ -1,6 +1,7 @@
+I push my practice codes and experimental codes as I go through my learning process
+
 # MACHINE LEARNING with PYTHON (MLwP)
-The goal is to clssify anyone as 'male' or 'female' given just their 'height', 'weight' and 'shoe size'
-we use scikit-learn package to train first a decision tree classifier (see: gender-classifier-demo.py) with already existing data set to make it able to predict the gender on it's own given a random set of 'height', 'weight' and 'shoe size
+Script files with the name MLwP are from my Machine Learning/AI projects
 
 # DEPENDENCIES 
     *Scikit-learn
@@ -8,4 +9,4 @@ we use scikit-learn package to train first a decision tree classifier (see: gend
     *scipy
 
 # Usage
-python Run_Code.py
+I mostly use PyCharm IDE
