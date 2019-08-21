@@ -11,7 +11,7 @@ pizzas = ['marinara', 'mozzarella', 'mushrooms', 'Pepperoni Pie']
 for pizza in pizzas:
     print('Everyday is Pizza Day and Today We Want {}'.format(pizza))
 
-print('\nAs you might have noticed by now, we love pizza')
+print('\nAs you might have noticed by now, we love pizza\n')
 
 #####
 
@@ -26,5 +26,5 @@ animals = ['Kangaroo', 'Zebra', 'Giraffe', 'Elephant']
 for animal in animals:
     print("Y'know What's absolutely CUTE? {} CUBS!!".format(animal))
 
-print("\nWhat do they have in common?: ummm, a whole CUTENESS DUH")
+print("\nWhat do they have in common?: ummm, a whole lotta CUTENESS DUH")
 
