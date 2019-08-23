@@ -25,3 +25,12 @@ list1.append(4) # ['physics', 'chemistry', 1997, 2000, 4]
 list1.insert(0, -100) # [-100, 'physics', 'chemistry', 1997, 2000]
 print(list1)
 
+# pop: Remove the last element from the list
+# remove: remove a specific element from the list.
+list1.pop()
+print('list1 after pop: {}'.format(list1))
+
+list1.remove(1997)
+print('list1 after removing 1997: {}'.format(list1))
+
+
