@@ -44,3 +44,15 @@ print('list1 after reversing: {}'.format(list1))
 list3 = [1, 2, 4, 3, 2, 2, 1, 2, 3, 4, 2, 2, 2]
 print('list3: {}'.format(list3))
 print('2 appears on list3: {} times'.format(list3.count(2)))
+
+# length
+print(len(list3))
+
+# Repetition
+print(['Hi'* 4])
+
+# condition and iteration
+if 3 in list3:
+    for i in list3:
+        print(i)
+
