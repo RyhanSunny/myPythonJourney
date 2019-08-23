@@ -2,6 +2,8 @@
 
 # A list in python is like an array in java
 # creating List
+from filecmp import cmp
+
 list1 = ['physics', 'chemistry', 1997, 2000]
 list2 = [1, 2, 3, 4, 5, 6, 7, 8]
 
