@@ -33,4 +33,11 @@ print('list1 after pop: {}'.format(list1))
 list1.remove(1997)
 print('list1 after removing 1997: {}'.format(list1))
 
+# get index
+print(list1.index('physics'))
+
+# Reverse the list.
+list1.reverse()
+print('list1 after reversing: {}'.format(list1))
+
 
