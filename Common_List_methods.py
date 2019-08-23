@@ -18,5 +18,10 @@ print('\nupdated list2: {}'.format(list2))
 del list2[2]
 print('lis2 after deleting element: {}'.format(list2))
 
+# FUNCTIONS
 
+# append and insert
+list1.append(4) # ['physics', 'chemistry', 1997, 2000, 4]
+list1.insert(0, -100) # [-100, 'physics', 'chemistry', 1997, 2000]
+print(list1)
 
