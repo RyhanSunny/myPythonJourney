@@ -40,4 +40,7 @@ print(list1.index('physics'))
 list1.reverse()
 print('list1 after reversing: {}'.format(list1))
 
-
+# Count how many times an element appears in the list.
+list3 = [1, 2, 4, 3, 2, 2, 1, 2, 3, 4, 2, 2, 2]
+print('list3: {}'.format(list3))
+print('2 appears on list3: {} times'.format(list3.count(2)))
