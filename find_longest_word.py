@@ -7,3 +7,6 @@ def LongestWord(sen):
     return [w for w in words if len(w) == maxLen][0]
 
 
+# keep this function call here
+print('Enter a full sentence or a few words: \n')
+print('longest word: '+ LongestWord(raw_input()))
