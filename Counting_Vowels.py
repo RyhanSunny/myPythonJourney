@@ -4,11 +4,9 @@
 
 string = str(input('Enter a sentence: ').strip())
 
-vowels = {'aeiouAEIOU'}
-for char in string:
+vowels = {i:0 for i in 'aeiou'}
+for char in string.lower():
     if char in vowels:
         vowels[char] += 1
 
 
-for i, j in vowels.:
-    print(k, v)
