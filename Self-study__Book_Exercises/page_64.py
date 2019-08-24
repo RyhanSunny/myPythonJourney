@@ -10,7 +10,7 @@ print(list1)
 #
 oneMill = [i for i in range(1, 1000001)]
 # for n in oneMill:
-    # print(n)
+# print(n)
 
 # 4-5. Summing a Million: Make a list of the numbers from one to one million, and then use min() and max() to make
 # sure your list actually starts at one and ends at one million . Also, use the sum() function to see how quickly
@@ -32,7 +32,15 @@ for i in range(3, 30, 3):
 
 # 4-8. Cubes: Make a list of the first 10 cubes (that is, the cube of each integer from 1 through 10), and use a for
 # loop to print out the value of each cube
-cubes = [value**3 for value in range(1,10)]
+value = []
+for i in range(1, 10):
+    value.append(i**3)
+print('\n')
+print(value)
+
+
+# 4-9. Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes
+cubes = [value ** 3 for value in range(1, 10)]
 print('\n')
 for cube in cubes:
     print(cube)
