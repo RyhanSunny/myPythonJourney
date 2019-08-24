@@ -10,3 +10,5 @@ for char in string.lower():
         vowels[char] += 1
 
 
+for i, j in vowels.items():
+    print(i, j)
