@@ -26,3 +26,6 @@ print('sum: ' + str(sum(oneMill)))
 for i in range(1, 20, 2):
     print(i)
 
+# 4 -7. Threes: Make a list of the multiples of 3 from 3 to 30. Use a for loop to print the numbers in your list
+for i in range(3, 30, 3):
+    print(i)
