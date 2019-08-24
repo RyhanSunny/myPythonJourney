@@ -44,3 +44,10 @@ cubes = [value ** 3 for value in range(1, 10)]
 print('\n')
 for cube in cubes:
     print(cube)
+
+# RANDOM print formatting
+name = 'don'
+num = 8
+print('name is %s, number is %i'%(name,num))
+# or
+print('name is {}, number is {}'.format(name, num))
