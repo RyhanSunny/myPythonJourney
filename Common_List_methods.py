@@ -58,3 +58,9 @@ if 3 in list3:
     for i in list3:
         print(i)
 
+
+# Statistics with List
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+min(digits)
+max(digits)
+sum(digits)
