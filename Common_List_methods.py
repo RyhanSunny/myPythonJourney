@@ -67,6 +67,6 @@ print(max(digits))
 print(sum(digits))
 
 # List comprehension A list comprehension combines the for loop and the creation of new elements into one line,
-# and automatically appends each new element.
+# and automatically appends each new element. [/expression/ /for loop to generate the numbers for the expression/]
 squares = [value**2 for value in range(1,11)] # double * means square (x^2)
 print(squares)
