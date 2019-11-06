@@ -1,13 +1,14 @@
-Temp = input("enter temperature value: ")
+val = eval(input("enter temperature value: "))
 
-try:
-  if "." in Temp:
-    val = float(Temp)
-  else:
-    val = int(Temp)
-except ValueError:
-  print("please enter temp value as numbers (eg 35, 45.4, -5")
-  quit()
+# if we're not using eval:
+# try:
+#   if "." in Temp:
+#     val = float(Temp)
+#   else:
+#     val = int(Temp)
+# except ValueError:
+#   print("please enter temp value as numbers (eg 35, 45.4, -5")
+#   quit()
 
 Unit = input("enter temperature unit: ")
 
